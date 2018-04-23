@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Apr 23 19:31:57 2018
+
+@author: ALOK
+"""
+# This python program performs performs addition, subtraction, multiplication and division
+# of two Panda Series data
+# Panda libraries is used to do the computation
+# Panda libraries provide rich time-series functionality , data alignment, NA-friendly statistics,
+#groupby, merge, and join methods.
+
+
+
+import pandas as pd
+A = pd.Series([12, 14, 16, 18, 20])
+B = pd.Series([11, 13, 15, 17, 19])
+C = A + B
+print("Add two Series:")
+print(C)
+print("Subtract two Series:")
+C = A - B
+print(C)
+print("Multiply two Series:")
+C = A * B
+print(C)
+print("Divide Series1 by Series2:")
+C = A / B
+print(C)
